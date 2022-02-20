@@ -1,0 +1,11 @@
+.myCanvas {
+    border-style: solid;
+    background-color: aliceblue;
+}
+
+button {
+    height: 50px;
+    width: 100px;
+    font-size: larger;
+    background-color: lightgoldenrodyellow;
+}
