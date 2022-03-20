@@ -1,0 +1,12 @@
+.myCanvas {
+    border-style: solid;
+    background-color: white;
+}
+
+button {
+    height: 50px;
+    width: 300px;
+    font-size: large;
+    background-color: lightgreen;
+    border-radius: 50px;
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Движение</title>
+  <script type="text/javascript" src="move.js"></script>
+  <link rel="stylesheet" type="text/css" href="move.css">
+</head>
+<body onload="initgame()">
+  <canvas id="myCanvas" height="500" width="900" class="myCanvas"> </canvas>
+  <div>
+    <button id="btnStart" onclick="Start()">Start</button>
+    <button id="btnStop" onclick="Stop()">Stop</button>
+  </div>
+
+  <div style="display:none">
+      <img id = "imgBall" src="images/ball.png"></img>
+      <img id = "imgEnemy" src="images/enemy.png"></img>
+  </div>
+  <h1 id = "count"> 0 </h1>
+  <h1 id = "message"> Press start </h1>
+</body>
+</html>
