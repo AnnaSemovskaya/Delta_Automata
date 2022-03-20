@@ -29,7 +29,7 @@ const catcher_size_y = 20;
 
 let enemy_x;
 let enemy_y;
-let enemy_size = 100;
+let enemy_size = 60;
 
 //ой, что-то новое, это вообще про что?
 let catcher_color_number = 0;
