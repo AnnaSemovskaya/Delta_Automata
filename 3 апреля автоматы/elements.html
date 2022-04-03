@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Линейный автомат</title>
+    <script type="text/javascript" src="code.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+
+<body onload="initgame()" >
+
+    <p>Линейный автомат</p>
+
+    <canvas id="myCanvas" height="500px" width="900px" >  </canvas>
+    <div>
+        <button id="Step" onclick="step()" class ="myBigButtons"> СДЕЛАТЬ ШАГ </button>
+        <button id="Soup" onclick="set_primary_soup()" class ="myBigButtons"> БУЛЬОН </button>
+        <button id="StartStop" onclick="start_stop()" class ="myBigButtons"> СТАРТ </button>
+        <button id="Clear" onclick="clearall()" class ="myBigButtons"> ОЧИСТИТЬ </button>
+    </div>
+
+</body>
+</html>
