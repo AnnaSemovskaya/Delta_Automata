@@ -1,0 +1,13 @@
+
+#myCanvas {
+
+    background-color: aqua;
+    border-style: solid;
+
+}
+
+.myBigButtons {
+    width: 100px;
+    height: 100px;
+    background-color: chartreuse;
+}
